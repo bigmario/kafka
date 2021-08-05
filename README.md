@@ -14,9 +14,3 @@ $ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server loc
 
 # READ THE EVENTS
 $ bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
-
-
-
-git remote add origin https://github.com/bigmario/kafka.git
-git branch -M main
-git push -u origin main
