@@ -1,0 +1,1077 @@
+[
+  {
+    "id": 0,
+    "name": "Don",
+    "last_name": "Jo",
+    "full_name": "Don Jo",
+    "age": 35,
+    "birthdate": "1989-05-06",
+    "nacionality": "US",
+    "documentId": [
+      {
+        "documentType": "PASSPORT",
+        "documentNumber": "123546789"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "123456789",
+        "areaCode": "111",
+        "countryCode": "1",
+        "isMain": true
+      }
+    ],
+    "email": [
+      {
+        "email": "jondoe@gmail.com",
+        "isMain": true
+      },
+      {
+        "email": "somemail@gmail.com",
+        "isMain": false
+      }
+    ],
+    "addressLine": [
+      {
+        "addressLine": "some address"
+      }
+    ],
+    "addressLineTwo": null,
+    "country": "US",
+    "city": "Neuss",
+    "state": "FL",
+    "postalCode": "41460",
+    "language": [
+      {
+        "language": "EN",
+        "is_main": true
+      }
+    ],
+    "marketCluster": ["segmento A", "segmento B"],
+    "status_blacklist": false,
+    "blacklist_enable_motive": [],
+    "blacklist_disable_motive": [],
+    "sensors": [
+      {
+        "cast": [
+          {
+            "id": "string",
+            "hostname": "string",
+            "vendor": "string",
+            "dhcpVendor": "string",
+            "mac": "string",
+            "isSpammable": true,
+            "createdAt": "2021-03-24T11:19:37.212Z",
+            "lastModifiedDate": "2021-03-24T11:19:37.212Z",
+            "lastSeen": "2021-03-24T11:19:37.212Z",
+            "registers": [
+              {
+                "date": "2021-03-24T11:22:49.039Z",
+                "maxDate": "2021-03-24T11:22:49.039Z",
+                "netPlan": {
+                  "numericId": 0,
+                  "bwUp": "string",
+                  "bwDwn": "string",
+                  "ceilUp": "string",
+                  "ceilDwn": "string",
+                  "name": "string",
+                  "description": "string",
+                  "password": "string",
+                  "prio": 0,
+                  "id": "string",
+                  "kkResource": "string",
+                  "isActive": true,
+                  "principal": true
+                },
+                "client_details": {
+                  "name": "string",
+                  "lastName": "string",
+                  "birthDate": "string",
+                  "email": "string",
+                  "userAgent": "string",
+                  "roomNo": "string",
+                  "type": "string",
+                  "acceptedTerms": ["string"],
+                  "others": {
+                    "additionalProp1": {},
+                    "additionalProp2": {},
+                    "additionalProp3": {}
+                  }
+                }
+              }
+            ],
+            "wifi": [
+              {
+                "name": "string",
+                "siteId": "string",
+                "ip": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PMS": [
+          {
+            "hotel": "string",
+            "booking_id": "123456",
+            "checkin_date": "string",
+            "checkout_date": "string",
+            "invoice": {
+              "booking_id": "123",
+              "invoice_date": "string",
+              "invoice_no": "string",
+              "invoice_name": "string",
+              "invoice_document_id": "string",
+              "invoice_address": "string",
+              "invoice_line": [
+                {
+                  "item": "string",
+                  "quantity": 1,
+                  "amount": 1.0,
+                  "tax": 1.0,
+                  "description": "string"
+                }
+              ],
+              "invoice_amount": 1.0,
+              "invoice_tax_id": "string",
+              "invoice_tax_amount": 1.0,
+              "invoice_total_amount": 1.0
+            },
+            "rate_plan": "string",
+            "packages": [
+              {
+                "price": "number",
+                "quantity": "number",
+                "packageName": "string",
+                "items": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "description": "sring",
+                    "price": "float",
+                    "currency": "string",
+                    "quantity": "float"
+                  }
+                ],
+                "ratePlanCode": "string",
+                "packageGroup": "string",
+                "packageCode": "string",
+                "currency": "string",
+                "description": [
+                  {
+                    "language": "string",
+                    "textDescription": "string"
+                  }
+                ],
+                "taxAmount": "float",
+                "taxIncluded": "boolean",
+                "sellSeparate": "boolean",
+                "startDate": "timestamp",
+                "endDate": "timestamp"
+              }
+            ],
+            "charges": [
+              {
+                "id": "string",
+                "description": "string",
+                "price": "float",
+                "currency": "string",
+                "quantity": "float",
+                "category": ""
+              },
+              {
+                "id": null,
+                "description": "BASE RATE",
+                "prices": 175,
+                "currency": "EUR",
+                "quantity": null,
+                "category": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "BE+": {
+          "bookings": [
+            {
+              "hotel": "string",
+              "booking_id": "string",
+              "checkin_date": "string",
+              "checkout_date": "string",
+              "invoice": {
+                "booking_id": "string",
+                "invoice_date": "string",
+                "invoice_no": "string",
+                "invoice_name": "string",
+                "invoice_document_id": "string",
+                "invoice_address": "string",
+                "invoice_line": [
+                  {
+                    "item": "string",
+                    "quantity": 1,
+                    "amount": 1.0,
+                    "tax": 1.0,
+                    "description": "string"
+                  }
+                ],
+                "invoice_amount": 1.0,
+                "invoice_tax_id": "string",
+                "invoice_tax_amount": 1.0,
+                "invoice_total_amount": 1.0
+              },
+              "rate_plan": "string",
+              "packages": [
+                {
+                  "price": "number",
+                  "quantity": "number",
+                  "packageName": "string",
+                  "items": [
+                    {
+                      "id": "string",
+                      "name": "string",
+                      "description": "sring",
+                      "price": "float",
+                      "currency": "string",
+                      "quantity": "float"
+                    }
+                  ],
+                  "ratePlanCode": "string",
+                  "packageGroup": "string",
+                  "packageCode": "string",
+                  "currency": "string",
+                  "description": [
+                    {
+                      "language": "string",
+                      "textDescription": "string"
+                    }
+                  ],
+                  "taxAmount": "float",
+                  "taxIncluded": "boolean",
+                  "sellSeparate": "boolean",
+                  "startDate": "timestamp",
+                  "endDate": "timestamp"
+                }
+              ],
+              "charges": [
+                {
+                  "id": "string",
+                  "description": "string",
+                  "price": "float",
+                  "currency": "string",
+                  "quantity": "float",
+                  "category": ""
+                },
+                {
+                  "id": null,
+                  "description": "BASE RATE",
+                  "prices": 175,
+                  "currency": "EUR",
+                  "quantity": null,
+                  "category": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "butler": [
+          {
+            "hotel": "string",
+            "booking_id": "string",
+            "checkin_date": "string",
+            "checkout_date": "string",
+            "invoice": {
+              "booking_id": "string",
+              "invoice_date": "string",
+              "invoice_no": "string",
+              "invoice_name": "string",
+              "invoice_document_id": "string",
+              "invoice_address": "string",
+              "invoice_line": [
+                {
+                  "item": "string",
+                  "quantity": 1,
+                  "amount": 1.0,
+                  "tax": 1.0,
+                  "description": "string"
+                }
+              ],
+              "invoice_amount": 1.0,
+              "invoice_tax_id": "string",
+              "invoice_tax_amount": 1.0,
+              "invoice_total_amount": 1.0
+            },
+            "rate_plan": "string",
+            "packages": [
+              {
+                "price": "number",
+                "quantity": "number",
+                "packageName": "string",
+                "items": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "description": "sring",
+                    "price": "float",
+                    "currency": "string",
+                    "quantity": "float"
+                  }
+                ],
+                "ratePlanCode": "string",
+                "packageGroup": "string",
+                "packageCode": "string",
+                "currency": "string",
+                "description": [
+                  {
+                    "language": "string",
+                    "textDescription": "string"
+                  }
+                ],
+                "taxAmount": "float",
+                "taxIncluded": "boolean",
+                "sellSeparate": "boolean",
+                "startDate": "timestamp",
+                "endDate": "timestamp"
+              }
+            ],
+            "charges": [
+              {
+                "id": "string",
+                "description": "string",
+                "price": "float",
+                "currency": "string",
+                "quantity": "float",
+                "category": ""
+              },
+              {
+                "id": null,
+                "description": "BASE RATE",
+                "prices": 175,
+                "currency": "EUR",
+                "quantity": null,
+                "category": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Jon",
+    "last_name": "Doe",
+    "full_name": "Jon Doe",
+    "age": 35,
+    "birthdate": "1989-05-06",
+    "nacionality": "US",
+    "documentId": [
+      {
+        "documentType": "PASSPORT",
+        "documentNumber": "123546789"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "123456789",
+        "areaCode": "111",
+        "countryCode": "1",
+        "isMain": true
+      }
+    ],
+    "email": [
+      {
+        "email": "jondoe@gmail.com",
+        "isMain": true
+      }
+    ],
+    "addressLine": [
+      {
+        "addressLine": "some address"
+      }
+    ],
+    "addressLineTwo": null,
+    "country": "US",
+    "city": "Neuss",
+    "state": "FL",
+    "postalCode": "41460",
+    "language": [
+      {
+        "language": "EN",
+        "is_main": true
+      }
+    ],
+    "marketCluster": ["segmento A", "segmento B"],
+    "status_blacklist": false,
+    "blacklist_enable_motive": [],
+    "blacklist_disable_motive": [],
+    "sensors": [
+      {
+        "cast": [
+          {
+            "id": "string",
+            "hostname": "string",
+            "vendor": "string",
+            "dhcpVendor": "string",
+            "mac": "string",
+            "isSpammable": true,
+            "createdAt": "2021-03-24T11:19:37.212Z",
+            "lastModifiedDate": "2021-03-24T11:19:37.212Z",
+            "lastSeen": "2021-03-24T11:19:37.212Z",
+            "registers": [
+              {
+                "date": "2021-03-24T11:22:49.039Z",
+                "maxDate": "2021-03-24T11:22:49.039Z",
+                "netPlan": {
+                  "numericId": 0,
+                  "bwUp": "string",
+                  "bwDwn": "string",
+                  "ceilUp": "string",
+                  "ceilDwn": "string",
+                  "name": "string",
+                  "description": "string",
+                  "password": "string",
+                  "prio": 0,
+                  "id": "string",
+                  "kkResource": "string",
+                  "isActive": true,
+                  "principal": true
+                },
+                "client_details": {
+                  "name": "string",
+                  "lastName": "string",
+                  "birthDate": "string",
+                  "email": "string",
+                  "userAgent": "string",
+                  "roomNo": "string",
+                  "type": "string",
+                  "acceptedTerms": ["string"],
+                  "others": {
+                    "additionalProp1": {},
+                    "additionalProp2": {},
+                    "additionalProp3": {}
+                  }
+                }
+              }
+            ],
+            "wifi": [
+              {
+                "name": "string",
+                "siteId": "string",
+                "ip": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PMS": [
+          {
+            "hotel": "string",
+            "booking_id": "456",
+            "checkin_date": "string",
+            "checkout_date": "string",
+            "invoice": {
+              "booking_id": "string",
+              "invoice_date": "string",
+              "invoice_no": "string",
+              "invoice_name": "string",
+              "invoice_document_id": "string",
+              "invoice_address": "string",
+              "invoice_line": [
+                {
+                  "item": "string",
+                  "quantity": 1,
+                  "amount": 1.0,
+                  "tax": 1.0,
+                  "description": "string"
+                }
+              ],
+              "invoice_amount": 1.0,
+              "invoice_tax_id": "string",
+              "invoice_tax_amount": 1.0,
+              "invoice_total_amount": 1.0
+            },
+            "rate_plan": "string",
+            "packages": [
+              {
+                "price": "number",
+                "quantity": "number",
+                "packageName": "string",
+                "items": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "description": "sring",
+                    "price": "float",
+                    "currency": "string",
+                    "quantity": "float"
+                  }
+                ],
+                "ratePlanCode": "string",
+                "packageGroup": "string",
+                "packageCode": "string",
+                "currency": "string",
+                "description": [
+                  {
+                    "language": "string",
+                    "textDescription": "string"
+                  }
+                ],
+                "taxAmount": "float",
+                "taxIncluded": "boolean",
+                "sellSeparate": "boolean",
+                "startDate": "timestamp",
+                "endDate": "timestamp"
+              }
+            ],
+            "charges": [
+              {
+                "id": "string",
+                "description": "string",
+                "price": "float",
+                "currency": "string",
+                "quantity": "float",
+                "category": ""
+              },
+              {
+                "id": null,
+                "description": "BASE RATE",
+                "prices": 175,
+                "currency": "EUR",
+                "quantity": null,
+                "category": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "BE+": {
+          "bookings": [
+            {
+              "hotel": "string",
+              "booking_id": "string",
+              "checkin_date": "string",
+              "checkout_date": "string",
+              "invoice": {
+                "booking_id": "string",
+                "invoice_date": "string",
+                "invoice_no": "string",
+                "invoice_name": "string",
+                "invoice_document_id": "string",
+                "invoice_address": "string",
+                "invoice_line": [
+                  {
+                    "item": "string",
+                    "quantity": 1,
+                    "amount": 1.0,
+                    "tax": 1.0,
+                    "description": "string"
+                  }
+                ],
+                "invoice_amount": 1.0,
+                "invoice_tax_id": "string",
+                "invoice_tax_amount": 1.0,
+                "invoice_total_amount": 1.0
+              },
+              "rate_plan": "string",
+              "packages": [
+                {
+                  "price": "number",
+                  "quantity": "number",
+                  "packageName": "string",
+                  "items": [
+                    {
+                      "id": "string",
+                      "name": "string",
+                      "description": "sring",
+                      "price": "float",
+                      "currency": "string",
+                      "quantity": "float"
+                    }
+                  ],
+                  "ratePlanCode": "string",
+                  "packageGroup": "string",
+                  "packageCode": "string",
+                  "currency": "string",
+                  "description": [
+                    {
+                      "language": "string",
+                      "textDescription": "string"
+                    }
+                  ],
+                  "taxAmount": "float",
+                  "taxIncluded": "boolean",
+                  "sellSeparate": "boolean",
+                  "startDate": "timestamp",
+                  "endDate": "timestamp"
+                }
+              ],
+              "charges": [
+                {
+                  "id": "string",
+                  "description": "string",
+                  "price": "float",
+                  "currency": "string",
+                  "quantity": "float",
+                  "category": ""
+                },
+                {
+                  "id": null,
+                  "description": "BASE RATE",
+                  "prices": 175,
+                  "currency": "EUR",
+                  "quantity": null,
+                  "category": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "butler": [
+          {
+            "hotel": "string",
+            "booking_id": "string",
+            "checkin_date": "string",
+            "checkout_date": "string",
+            "invoice": {
+              "booking_id": "string",
+              "invoice_date": "string",
+              "invoice_no": "string",
+              "invoice_name": "string",
+              "invoice_document_id": "string",
+              "invoice_address": "string",
+              "invoice_line": [
+                {
+                  "item": "string",
+                  "quantity": 1,
+                  "amount": 1.0,
+                  "tax": 1.0,
+                  "description": "string"
+                }
+              ],
+              "invoice_amount": 1.0,
+              "invoice_tax_id": "string",
+              "invoice_tax_amount": 1.0,
+              "invoice_total_amount": 1.0
+            },
+            "rate_plan": "string",
+            "packages": [
+              {
+                "price": "number",
+                "quantity": "number",
+                "packageName": "string",
+                "items": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "description": "sring",
+                    "price": "float",
+                    "currency": "string",
+                    "quantity": "float"
+                  }
+                ],
+                "ratePlanCode": "string",
+                "packageGroup": "string",
+                "packageCode": "string",
+                "currency": "string",
+                "description": [
+                  {
+                    "language": "string",
+                    "textDescription": "string"
+                  }
+                ],
+                "taxAmount": "float",
+                "taxIncluded": "boolean",
+                "sellSeparate": "boolean",
+                "startDate": "timestamp",
+                "endDate": "timestamp"
+              }
+            ],
+            "charges": [
+              {
+                "id": "string",
+                "description": "string",
+                "price": "float",
+                "currency": "string",
+                "quantity": "float",
+                "category": ""
+              },
+              {
+                "id": null,
+                "description": "BASE RATE",
+                "prices": 175,
+                "currency": "EUR",
+                "quantity": null,
+                "category": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jon",
+    "last_name": "Doe",
+    "full_name": "Jon Doe",    
+    "age": 35,
+    "birthdate": "1989-05-06",
+    "nacionality": "US",
+    "documentId": [
+      {
+        "documentType": "PASSPORT",
+        "documentNumber": "123546789"
+      }
+    ],
+    "phone": [
+      {
+        "phone": "123456789",
+        "areaCode": "111",
+        "countryCode": "1",
+        "isMain": true
+      }
+    ],
+    "email": [
+      {
+        "email": "jondoe@gmail.com",
+        "isMain": true
+      }
+    ],
+    "addressLine": [
+      {
+        "addressLine": "some address"
+      }
+    ],
+    "addressLineTwo": null,
+    "country": "US",
+    "city": "Neuss",
+    "state": "FL",
+    "postalCode": "41460",
+    "language": [
+      {
+        "language": "EN",
+        "is_main": true
+      }
+    ],
+    "marketCluster": ["segmento A", "segmento B"],
+    "status_blacklist": false,
+    "blacklist_enable_motive": [],
+    "blacklist_disable_motive": [],
+    "sensors": [
+      {
+        "cast": [
+          {
+            "id": "string",
+            "hostname": "string",
+            "vendor": "string",
+            "dhcpVendor": "string",
+            "mac": "string",
+            "isSpammable": true,
+            "createdAt": "2021-03-24T11:19:37.212Z",
+            "lastModifiedDate": "2021-03-24T11:19:37.212Z",
+            "lastSeen": "2021-03-24T11:19:37.212Z",
+            "registers": [
+              {
+                "date": "2021-03-24T11:22:49.039Z",
+                "maxDate": "2021-03-24T11:22:49.039Z",
+                "netPlan": {
+                  "numericId": 0,
+                  "bwUp": "string",
+                  "bwDwn": "string",
+                  "ceilUp": "string",
+                  "ceilDwn": "string",
+                  "name": "string",
+                  "description": "string",
+                  "password": "string",
+                  "prio": 0,
+                  "id": "string",
+                  "kkResource": "string",
+                  "isActive": true,
+                  "principal": true
+                },
+                "client_details": {
+                  "name": "string",
+                  "lastName": "string",
+                  "birthDate": "string",
+                  "email": "string",
+                  "userAgent": "string",
+                  "roomNo": "string",
+                  "type": "string",
+                  "acceptedTerms": ["string"],
+                  "others": {
+                    "additionalProp1": {},
+                    "additionalProp2": {},
+                    "additionalProp3": {}
+                  }
+                }
+              }
+            ],
+            "wifi": [
+              {
+                "name": "string",
+                "siteId": "string",
+                "ip": "string"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "PMS": [
+          {
+            "hotel": "string",
+            "booking_id": "789",
+            "checkin_date": "string",
+            "checkout_date": "string",
+            "invoice": {
+              "booking_id": "string",
+              "invoice_date": "string",
+              "invoice_no": "string",
+              "invoice_name": "string",
+              "invoice_document_id": "string",
+              "invoice_address": "string",
+              "invoice_line": [
+                {
+                  "item": "string",
+                  "quantity": 1,
+                  "amount": 1.0,
+                  "tax": 1.0,
+                  "description": "string"
+                }
+              ],
+              "invoice_amount": 1.0,
+              "invoice_tax_id": "string",
+              "invoice_tax_amount": 1.0,
+              "invoice_total_amount": 1.0
+            },
+            "rate_plan": "string",
+            "packages": [
+              {
+                "price": "number",
+                "quantity": "number",
+                "packageName": "string",
+                "items": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "description": "sring",
+                    "price": "float",
+                    "currency": "string",
+                    "quantity": "float"
+                  }
+                ],
+                "ratePlanCode": "string",
+                "packageGroup": "string",
+                "packageCode": "string",
+                "currency": "string",
+                "description": [
+                  {
+                    "language": "string",
+                    "textDescription": "string"
+                  }
+                ],
+                "taxAmount": "float",
+                "taxIncluded": "boolean",
+                "sellSeparate": "boolean",
+                "startDate": "timestamp",
+                "endDate": "timestamp"
+              }
+            ],
+            "charges": [
+              {
+                "id": "string",
+                "description": "string",
+                "price": "float",
+                "currency": "string",
+                "quantity": "float",
+                "category": ""
+              },
+              {
+                "id": null,
+                "description": "BASE RATE",
+                "prices": 175,
+                "currency": "EUR",
+                "quantity": null,
+                "category": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "BE+": {
+          "bookings": [
+            {
+              "hotel": "string",
+              "booking_id": "string",
+              "checkin_date": "string",
+              "checkout_date": "string",
+              "invoice": {
+                "booking_id": "string",
+                "invoice_date": "string",
+                "invoice_no": "string",
+                "invoice_name": "string",
+                "invoice_document_id": "string",
+                "invoice_address": "string",
+                "invoice_line": [
+                  {
+                    "item": "string",
+                    "quantity": 1,
+                    "amount": 1.0,
+                    "tax": 1.0,
+                    "description": "string"
+                  }
+                ],
+                "invoice_amount": 1.0,
+                "invoice_tax_id": "string",
+                "invoice_tax_amount": 1.0,
+                "invoice_total_amount": 1.0
+              },
+              "rate_plan": "string",
+              "packages": [
+                {
+                  "price": "number",
+                  "quantity": "number",
+                  "packageName": "string",
+                  "items": [
+                    {
+                      "id": "string",
+                      "name": "string",
+                      "description": "sring",
+                      "price": "float",
+                      "currency": "string",
+                      "quantity": "float"
+                    }
+                  ],
+                  "ratePlanCode": "string",
+                  "packageGroup": "string",
+                  "packageCode": "string",
+                  "currency": "string",
+                  "description": [
+                    {
+                      "language": "string",
+                      "textDescription": "string"
+                    }
+                  ],
+                  "taxAmount": "float",
+                  "taxIncluded": "boolean",
+                  "sellSeparate": "boolean",
+                  "startDate": "timestamp",
+                  "endDate": "timestamp"
+                }
+              ],
+              "charges": [
+                {
+                  "id": "string",
+                  "description": "string",
+                  "price": "float",
+                  "currency": "string",
+                  "quantity": "float",
+                  "category": ""
+                },
+                {
+                  "id": null,
+                  "description": "BASE RATE",
+                  "prices": 175,
+                  "currency": "EUR",
+                  "quantity": null,
+                  "category": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "butler": [
+          {
+            "hotel": "string",
+            "booking_id": "string",
+            "checkin_date": "string",
+            "checkout_date": "string",
+            "invoice": {
+              "booking_id": "string",
+              "invoice_date": "string",
+              "invoice_no": "string",
+              "invoice_name": "string",
+              "invoice_document_id": "string",
+              "invoice_address": "string",
+              "invoice_line": [
+                {
+                  "item": "string",
+                  "quantity": 1,
+                  "amount": 1.0,
+                  "tax": 1.0,
+                  "description": "string"
+                }
+              ],
+              "invoice_amount": 1.0,
+              "invoice_tax_id": "string",
+              "invoice_tax_amount": 1.0,
+              "invoice_total_amount": 1.0
+            },
+            "rate_plan": "string",
+            "packages": [
+              {
+                "price": "number",
+                "quantity": "number",
+                "packageName": "string",
+                "items": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "description": "sring",
+                    "price": "float",
+                    "currency": "string",
+                    "quantity": "float"
+                  }
+                ],
+                "ratePlanCode": "string",
+                "packageGroup": "string",
+                "packageCode": "string",
+                "currency": "string",
+                "description": [
+                  {
+                    "language": "string",
+                    "textDescription": "string"
+                  }
+                ],
+                "taxAmount": "float",
+                "taxIncluded": "boolean",
+                "sellSeparate": "boolean",
+                "startDate": "timestamp",
+                "endDate": "timestamp"
+              }
+            ],
+            "charges": [
+              {
+                "id": "string",
+                "description": "string",
+                "price": "float",
+                "currency": "string",
+                "quantity": "float",
+                "category": ""
+              },
+              {
+                "id": null,
+                "description": "BASE RATE",
+                "prices": 175,
+                "currency": "EUR",
+                "quantity": null,
+                "category": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
